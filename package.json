@@ -1,8 +1,7 @@
-cat > package.json << 'EOF'
 {
   "name": "telegram-media-bot",
   "version": "1.0.0",
-  "description": "Advanced Random Media Bot for Telegram",
+  "description": "Advanced Telegram Media Bot with Random Content",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -11,8 +10,11 @@ cat > package.json << 'EOF'
     "telegraf": "^4.16.3",
     "axios": "^1.6.2"
   },
-  "keywords": ["telegram", "bot", "media"],
-  "author": "Your Name",
+  "keywords": [
+    "telegram",
+    "bot",
+    "media"
+  ],
+  "author": "kx4xmods",
   "license": "MIT"
 }
-EOF
